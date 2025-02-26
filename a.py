@@ -1,4 +1,10 @@
-for i in range(10):
-    print(f"Number: {i+1}")
-    print("hello")
-    print("End of Script")
+while True:
+    try:
+        num = int(input("Enter a number: "))
+        break
+    except ValueError:
+       print("Invalid input. Please enter a valid number.")
+limit = input("Enter the range: ")
+limit = int(limit) if limit.isdigit() else 10
+for i in range(1, limit + 1):
+    print(f"{num} x {i} = {num * i}")
