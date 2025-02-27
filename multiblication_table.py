@@ -16,7 +16,7 @@ num = int(input("Enter the number: "))
 r = int(input("Enter the Range: "))
 
 for n in range(r):
-    for nn in range(n+1):
+    for nn in range(n+5):
         print(nn +1, end="")
     print("")  
 
