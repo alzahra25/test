@@ -8,3 +8,8 @@ limit = input("Enter the range: ")
 limit = int(limit) if limit.isdigit() else 10
 for i in range(1, limit + 1):
     print(f"{num} x {i} = {num * i}")
+
+print("End of the program")
+
+
+    
