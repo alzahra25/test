@@ -29,10 +29,5 @@ for n in range(r):
   
     print(" " * (4 - n), end="")
     print("*" * (2 * n + 1))
-<<<<<<< HEAD
 
-    print("Thank you")    
-=======
-print("task end")
-        
->>>>>>> 9ec37586e8d2c3e266061601999369854e1d55be
+print("THE END OF SCRIPT")
