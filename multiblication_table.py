@@ -8,15 +8,15 @@ def generate_multiplication_table():
         print(f"{number} x {i} = {number * i}")
         i += 1  
 generate_multiplication_table()
-print("Thank you")
+print("Task is Done")
 
 print("Task2")
 
-num = int(input("Enter the number: "))
+num = int(input("Enter any Valid number: "))
 r = int(input("Enter the Range: "))
 
 for n in range(r):
-    for nn in range(n+1):
+    for nn in range(n+5):
         print(nn +1, end="")
     print("")  
 
